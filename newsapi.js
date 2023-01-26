@@ -32,7 +32,7 @@ const options = {
 // .then(response => console.log(response))
 // .catch(err => console.error(err));
 
-fetch(`https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=8eca2f831cdb410480475e65794fabeb`)
+fetch(`https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=8eca2f831cdb410480475e65794fabeb`,options)
 	.then((response)=> response.json())
     .then((response)=>{
         const articles=response.articles;
