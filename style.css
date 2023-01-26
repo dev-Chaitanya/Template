@@ -11,7 +11,7 @@ html{
 .container1 {
     position: relative;
     /* border: 1px solid black; */
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     transition-duration: 2s;
     transition-timing-function: ease-in-out;
@@ -25,7 +25,7 @@ html{
 .container1::before {
     content: "";
     position: absolute;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     transition-duration: 900ms;
     transition-timing-function: ease-in-out;
