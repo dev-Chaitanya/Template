@@ -1,0 +1,98 @@
+@media  screen and (max-width:768px) {
+    /* body{
+        background-color: red;
+    } */
+    .container1{
+        width: 100%;
+    }
+    
+    .container1box h1{
+        /* background-color: aliceblue; */
+        /* height: 50vh; */
+        font-size: 2rem;
+        padding-bottom: 1vh;
+    }
+    .container1box{
+        height: 50vh;
+        width: 80vw;
+        line-height: 3vh;
+        justify-content: space-around;
+    }
+    .container1box::before{
+     height: 50vh;
+        width: 80vw;
+    }
+    .container1box h2{
+        font-size: 2em;
+        border-bottom: none;
+    }
+    .textanimation{
+        /* border: 1px solid red; */
+        font-size:2.2rem
+    }
+    .container1box h3{
+        padding-top: 1vh;
+        border-top: 1px solid white;
+        font-size: 1.4rem;
+    }
+    .container2{
+        /* border: 1px solid red; */
+        /* background-color: red; */
+        display: flex;
+        flex-direction: row;
+    }
+    .container2Nav nav{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .container2Nav nav ul{
+        /* margin-top: 5px; */
+        min-width: 100vw;
+    }
+    .container3box2{
+        margin: 0;
+        /* border: 1px solid red; */
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .links{
+        /* border: 1px solid red; */
+/* flex-direction: column; */
+flex-wrap: wrap;
+min-height: 25vh;
+align-items: center;
+justify-content: space-evenly;
+    }
+    .links li{
+        margin-right: 13px;
+    }
+    .card{
+        margin: 53px;
+        width: 50vw;
+        height: 50vh;
+    }
+    .card::before{
+        height: 50vh;
+    }
+}
+
+@media (min-width:768px) and (max-width:1860px) {
+.container3box2{
+        margin: 0;
+        /* border: 1px solid blue; */
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .container2Nav nav ul{
+        margin-top: 5px;
+        min-width: 40vw;
+    }
+    .card{
+        margin: 53px;
+        min-width: 70vw;
+        height: 30vh;
+    }
+    .card::before{
+height: 30vh;
+    }
+} 
