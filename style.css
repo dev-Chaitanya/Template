@@ -67,7 +67,7 @@ html{
 }
 
 .container1bg1 {
-    background: url('/images/img1.jpg');
+    background: url('../Template/images/img1.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -75,14 +75,14 @@ html{
 }
 
 .container1bg2 {
-    background: url('/images/img2.jpg');
+    background: url('../Template/images/img2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .container1bg3 {
-    background: url('/images/img3.jpg');
+    background: url('../Template/images/img3.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -318,7 +318,7 @@ font-weight: 200;
     border-bottom: 1px solid #302f2f;
     width: 100%;
     top: 0;
-background: url('/images/fabric.jpg');
+background: url('../Template/images/fabric.jpg');
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;  
@@ -362,7 +362,7 @@ content: "";
     border-bottom: 1px solid #302f2f;
     width: 100%;
     top: 0;
-background: url('/images/fabric.jpg');
+background: url('../Template/images/fabric.jpg');
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;  
@@ -456,7 +456,7 @@ transform: translatey(30vw);
     /* background-color: burlywood; */
     height: 80vh;
     min-width: 100%;
-    background-image: url('/images/mountain.jpg');
+    background-image: url('../Template/images/mountain.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -511,7 +511,7 @@ transform: translatey(30vw);
     border-bottom: 1px solid #302f2f;
     width: 100%;
     top: 0;
-    background: url('/images/fabric.jpg');
+    background: url('../Template/images/fabric.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -662,7 +662,7 @@ from, to { border-color: transparent }
 
 .container6{
     /* background-color: #433e3f; */
-    background-image: url('/images/newsbg.jpg');
+    background-image: url('../Template/images/newsbg.jpg');
     /* min-height: 40vh; */
     background-repeat: no-repeat;
     background-position:top;
