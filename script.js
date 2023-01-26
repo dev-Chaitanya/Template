@@ -57,7 +57,7 @@ let scrolpos=$(window).scrollTop();
 
 let targetpos=$('#container1Box').offset().top;
 
-console.log(scrolpos);
+// console.log(scrolpos);
 if(scrolpos>=0 && scrolpos<30){
     $('#container1Box').css({
         opacity:1

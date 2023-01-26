@@ -26,24 +26,18 @@ let carouselInner=document.querySelector('.carousel-inner');
 
 const options = {
 	method: 'GET',
-	headers: {
-        "request-mode": 'cors',
-        "accept":" application/x-www-form-urlencoded",
-        modelId:`7390a500-9fe1-483b-8123-750b96fc660c&urls=https://goo.gl/ICoiHc`,
-        "Access-contorol":"Allow"
-	}
 };
 
 // .then(response => response.json())
 // .then(response => console.log(response))
 // .catch(err => console.error(err));
 
-fetch(`https://newsapi.org/v2/everything?q=India&sortBy=publishedAt&apiKey=8eca2f831cdb410480475e65794fabeb`)
+fetch(`https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=8eca2f831cdb410480475e65794fabeb`)
 	.then((response)=> response.json())
     .then((response)=>{
         const articles=response.articles;
         for(let i=0; i<10; i++){
-
+console.log(articles[i])
             if(i===0){
     let titleImage=document.createElement('img');
                 let carouselItemActive=document.createElement('div');
