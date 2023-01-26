@@ -49,6 +49,9 @@
         /* margin-top: 5px; */
         min-width: 100vw;
     }
+    .brandName{
+        margin: 15px auto;
+    }
     .container3box2{
         margin: 0;
         /* border: 1px solid red; */

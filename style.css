@@ -245,6 +245,7 @@ z-index: 4;
 .brandName{
     /* border:1px solid green; */
     margin-left: 12px;
+    /* margin: 10px auto; */
 }
 .brandName a{
     color: white;
