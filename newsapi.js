@@ -38,7 +38,7 @@ const options = {
 // .then(response => console.log(response))
 // .catch(err => console.error(err));
 
-fetch(`https://newsapi.org/v2/everything?q=world&sortBy=publishedAt&apiKey=8eca2f831cdb410480475e65794fabeb`)
+fetch(`https://newsapi.org/v2/everything?q=India&sortBy=publishedAt&apiKey=8eca2f831cdb410480475e65794fabeb`)
 	.then((response)=> response.json())
     .then((response)=>{
         const articles=response.articles;
