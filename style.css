@@ -221,7 +221,7 @@ z-index: 4;
 
 /* contianer2  */
 .container2{
-    border: 3px solid red;
+    /* border: 3px solid red; */
     height: 10vh;
     display: flex;
     align-items: center;

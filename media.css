@@ -38,6 +38,7 @@
     .container2{
         /* border: 1px solid red; */
         /* background-color: red; */
+        height: 15vh;
         display: flex;
         flex-direction: row;
     }
