@@ -256,7 +256,6 @@ z-index: 4;
     margin-right: 10px;
     display: flex;
     width: 23vw;
-    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .container2Nav nav ul li{
@@ -777,3 +776,89 @@ font-family: 'Times New Roman', Times, serif;
     margin: auto;
     padding: none;
    }
+
+     /* container 7....... */
+     .container7{
+        background-color: #302f2f;
+        /* border: 1px solid red; */
+        height: max-content;
+        padding-bottom: 40px;
+       }
+    
+       .serviceTitle{
+        position: relative;
+        padding: 10px;
+        height: 20vh;
+        /* border: 1px solid white; */
+        color: white;
+        text-align: center;
+        background-color: rgb(37, 35, 35);
+    }
+    .serviceTitle h1{
+    /* border: 1px solid red; */
+    width: max-content;
+    margin-left: 25vw;
+    font-size: 4rem;
+    font-style: italic;
+    }
+    .serviceTitle h3{
+    font-weight: 100;
+    }
+    .underlineText{
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: tomato;
+    text-decoration-thickness:1px;
+    }
+    .serviceCards{
+    /* border: 1px solid green; */
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    }
+    .serviceCard{
+    /* margin: auto; */
+    position: relative;
+    margin-top: 10px;
+    
+    border: 1px solid rgb(41, 41, 41);
+    width: max-content;
+    height: max-content;
+    color: white;
+    text-align: center;
+    /* padding: 3px; */
+    /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
+    transition-duration: 900ms;
+    transition-timing-function: ease-in-out;
+    }
+    .serviceCard:hover{
+    font-weight: 400;
+    box-shadow: rgb(0, 0, 0) 0px 25px 20px -20px;
+    background-color: rgb(34, 34, 34);
+    }
+    .serviceCard h1{
+    z-index: 12;
+    font-weight: 100;
+    }
+    
+    .serviceCard ul {
+    z-index: 1;
+    /* border: 1px solid red; */
+    }
+    .serviceCard ul li{
+    z-index: 1;
+    list-style: none;
+    /* border: 1px solid green; */
+    line-height: 6vh;
+    margin-right: 20px;
+    }
+    .serviceCard:hover.serviceCard ul li:nth-child(5){
+    border-bottom: 2px solid #494848;
+    }
+    .serviceCard:hover.serviceCard ul li{
+    border-top: 2px solid #494848;
+    }
+    .serviceCard:hover.serviceCard img{
+    filter: invert(1);
+    }
