@@ -36,7 +36,7 @@
         font-size: 1.4rem;
     }
     .container2{
-        background-color: red;
+        /* background-color: red; */
         height: 15vh;
         display: flex;
         flex-direction: row;
