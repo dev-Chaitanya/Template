@@ -221,7 +221,7 @@ z-index: 4;
 
 /* contianer2  */
 .container2{
-    height: 15vh;
+    height: max-content;
     display: flex;
     align-items: center;
     background-color: #202020;
