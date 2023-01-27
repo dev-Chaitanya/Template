@@ -48,7 +48,10 @@ let container6=document.querySelector('.container6')
 let container3box1=document.querySelector('.contaienr3box1')
 let container5box1=document.querySelector('.container5box1')
 let container5box2=document.querySelector('.container5box2');
+let serviceCard1=document.querySelector('.servicecard1');
+let serviceCard2=document.querySelector('.servicecard2');
 let lis=document.querySelectorAll('.texts ul li');
+
 var opa;
 $(document).ready(()=>{
 $(window).scroll(()=>{
@@ -125,7 +128,14 @@ else if(scrolpos>=1784){
 container5box1.classList.add('cardleft')
 }
 
-
+if(scrolpos<3571){
+    serviceCard1.classList.remove('cardleft')
+    serviceCard2.classList.remove('cardright');
+}
+else if(scrolpos>3561){
+serviceCard1.classList.add('cardleft');
+serviceCard2.classList.add('cardright');
+}
 
 
 })
