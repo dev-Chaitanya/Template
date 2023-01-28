@@ -790,18 +790,18 @@ font-family: 'Times New Roman', Times, serif;
     
        .serviceTitle{
         position: relative;
-        padding: 10px;
+        padding: 3px;
         max-width: max-content;
         height: max-content;
         /* border: 1px solid white; */
         color: white;
-        text-align: center;
+        /* text-align: center; */
         background-color: rgb(37, 35, 35);
     }
     .serviceTitle h1{
     /* border: 1px solid red; */
     width: max-content;
-    margin-left: 25vw;
+    /* margin-left: 25vw; */
     font-size: 4rem;
     font-style: italic;
     }
