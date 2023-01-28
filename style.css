@@ -783,7 +783,7 @@ font-family: 'Times New Roman', Times, serif;
      .container7{
         background-color: #302f2f;
         /* border: 1px solid red; */
-        max-width: max-content;
+        max-width: 100%;
         height: max-content;
         padding-bottom: 40px;
        }
