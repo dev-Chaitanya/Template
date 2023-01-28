@@ -87,9 +87,7 @@ justify-content: space-evenly;
 }
 
 @media (min-width:768px) and (max-width:1860px) {
-    *{
-width: 100%;
-    }
+
 .container3box2{
         margin: 0;
         /* border: 1px solid blue; */
