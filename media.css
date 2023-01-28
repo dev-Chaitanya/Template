@@ -41,7 +41,7 @@ width: 100%;
         height: 15vh;
         display: flex;
         flex-direction: row;
-        position: absolute;
+        position:sticky;
         top: 0;
     }
     .container2Nav nav{
