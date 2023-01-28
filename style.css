@@ -11,7 +11,7 @@ html{
 }
 .container1 {
     position: relative;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 90vh;
     width: 100%;
     transition-duration: 2s;
@@ -37,7 +37,7 @@ html{
     position: relative;
     background:none;
     border: none;
-    border:1px solid yellow;
+    /* border:1px solid yellow; */
     width:100%;
     margin-bottom: 12px;
     padding: 23px;
@@ -91,7 +91,7 @@ html{
 
 .container1box {
     margin: 83px auto;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 70vh;
     min-width: 50%;
     /* background-color: black; */
@@ -222,7 +222,7 @@ z-index: 4;
 
 /* contianer2  */
 .container2{
-    border: 1px solid skyblue;
+    /* border: 1px solid skyblue; */
     height: 15vh;
     display: flex;
     align-items: center;
@@ -233,7 +233,7 @@ z-index: 4;
 }
 .container2Nav{
     /* margin: 12px auto; */
-    border: 1px solid yellowgreen;
+    /* border: 1px solid yellowgreen; */
    min-width: 100%;
 }
 
@@ -244,7 +244,7 @@ z-index: 4;
     align-items: center;
 }
 .brandName{
-    border:1px solid green;
+    /* border:1px solid green; */
     margin-left: 12px;
     /* margin: 10px auto; */
 }
@@ -284,7 +284,7 @@ z-index: 4;
    }
    .container3box1{
     position: relative;
-    border: 1px solid darkmagenta;
+    /* border: 1px solid darkmagenta; */
     height: 30vh;
     width: 100%;
     display: flex;
@@ -294,7 +294,7 @@ z-index: 4;
     font-size: 2em;
    }
    .container3box1 h1{
-    border: 1px solid darkblue;
+    /* border: 1px solid darkblue; */
     position: relative;
     z-index: 1;
     color: white;
@@ -451,7 +451,7 @@ transform: translatey(30vw);
 }
 /* container4 */
 .container4{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     position:sticky;
     top: 0;
     /* background-color: burlywood; */
@@ -782,7 +782,8 @@ font-family: 'Times New Roman', Times, serif;
      /* container 7....... */
      .container7{
         background-color: #302f2f;
-        /* border: 1px solid red; */
+        border: 1px solid red;
+        max-width: max-content;
         height: max-content;
         padding-bottom: 40px;
        }
@@ -790,6 +791,7 @@ font-family: 'Times New Roman', Times, serif;
        .serviceTitle{
         position: relative;
         padding: 10px;
+        max-width: max-content;
         height: max-content;
         /* border: 1px solid white; */
         color: white;
