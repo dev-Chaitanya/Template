@@ -221,12 +221,12 @@ z-index: 4;
 
 /* contianer2  */
 .container2{
-    height: max-content;
+    height: 15vh;
     display: flex;
     align-items: center;
     background-color: #202020;
     position:sticky;
-    top: 0;
+    top: 0px;
     z-index: 5;
 }
 .container2Nav{
@@ -788,7 +788,7 @@ font-family: 'Times New Roman', Times, serif;
        .serviceTitle{
         position: relative;
         padding: 10px;
-        height: 20vh;
+        height: max-content;
         /* border: 1px solid white; */
         color: white;
         text-align: center;
