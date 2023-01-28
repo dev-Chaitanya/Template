@@ -782,7 +782,7 @@ font-family: 'Times New Roman', Times, serif;
      /* container 7....... */
      .container7{
         background-color: #302f2f;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         max-width: max-content;
         height: max-content;
         padding-bottom: 40px;
