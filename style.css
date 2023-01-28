@@ -791,7 +791,7 @@ font-family: 'Times New Roman', Times, serif;
        .serviceTitle{
         position: relative;
         padding: 3px;
-        max-width: max-content;
+        width: 100%;
         height: max-content;
         /* border: 1px solid white; */
         color: white;
